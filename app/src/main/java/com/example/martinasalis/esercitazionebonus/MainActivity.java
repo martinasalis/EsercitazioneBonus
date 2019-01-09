@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         int errors = 0;
 
         if(username.getText() == null || username.getText().length()==0){
-            username.setError("Inserisci il nome");
+            username.setError("Inserisci l'username");
             errors++;
         }
         else{
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if(password.getText() == null || password.getText().length()==0){
-            password.setError("Inserisci il cognome");
+            password.setError("Inserisci la password");
             errors++;
         }
         else{
